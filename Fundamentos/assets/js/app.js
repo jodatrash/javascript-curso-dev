@@ -1,3 +1,5 @@
+// console.log(miNuevoNombre + ' Cruz');
+
 // console.log('Hola Mundo por medio de app.js');
 // document.write('Hola Mundo x2');
 
@@ -55,3 +57,10 @@ const s = 'Hola de nuevo';
 // 7.- Orden y lugar de las importaciones.
 
 var miNombre = 'Jonathan';
+
+// let outerWidth = 1000000;
+// const outerHeight = 12;
+
+
+// Recomendable usar siempre let o const para definir variables y constantes, nunca var, solo en casos de uso en donde el navegador web sea viejo
+let miNuevoNombre = 'Jonathan Pacheco';
