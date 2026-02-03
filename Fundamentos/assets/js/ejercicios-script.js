@@ -35,3 +35,31 @@ function average(num1, num2, num3) {
 };
 let result = average(5, 6, 5);
 console.log(result);
+
+/*
+Crear una función que reciba una cadena como parámetro y devuelva
+la cadena si es mayor a 5 caracteres o menor
+*/
+function largoCadena(cadena) {
+  if (cadena.length > 5) {
+    console.log('Es mayor');
+  } else {
+    console.log('Es menor');
+  }
+}
+
+// Ejemplo de uso:
+largoCadena("test es mayor");    // Imprimirá "Es menor"
+largoCadena("Hola"); // Imprimirá "Es mayor"
+
+/*
+Crear una función que reciba una cadena como parámetro y devuelva
+la cadena si es mayor a 5 caracteres o menor
+*/
+function largoCadena(cadena) {
+  console.log(cadena.length > 5 ? 'Es mayor' : 'Es menor');
+}
+
+// Ejemplo de uso:
+largoCadena("test es mayor");    // Imprimirá "Es menor"
+largoCadena("Hola"); // Imprimirá "Es mayor"
